@@ -1,0 +1,15 @@
+h1{ 
+	font-style: sans-serif; 
+}
+.nav ul{
+	list-style-type: none; 
+	float: center;
+}
+.nav li{
+	display: inline; 
+}
+ul{
+	list-style-type: none;
+	margin:0;
+	padding: 0;	
+}
