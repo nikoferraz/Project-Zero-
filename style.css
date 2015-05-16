@@ -1,3 +1,52 @@
+#brandName{
+  font-weight: bold;
+  margin-left: 5px; 
+  font-family: Impact, Charcoal, sans-serif;
+  position: absolute;  
+  top:0.5%;
+
+}
+
+body{
+  background-color: #C67441;
+  padding: 50px;
+  background-image: url("dark-leather.png"); 
+}
+
+nav.navbar-default{
+	background-color: #C67441;
+	opacity: 0.5; 
+	filter: alpha(opacity=50); 
+	width: 100%; 
+  position: absolute;  
+	right: 0;
+  top: 10%;
+  color: blue;
+  font-weight: bold; 
+  text-align: center; 
+} 
+
+.navbar-nav{
+  text-align: center;
+  color: black;
+  font-weight: bold; 
+}
+.jumbotron{
+  padding: 20px; 
+  min-height: 500px; 
+  background-image: url('45-degree-fabric-light.png');
+  float: right; 
+  background-color: #E5D9CA;
+  border-radius: 5px; 
+  position: absolute;
+  top: 20%;
+  bottom: 10%; 
+  width:90%;
+  margin-bottom: 5px;
+  margin-top: 10px; 
+}
+
+
 h1{ 
 	font-style: sans-serif; 
 }
@@ -12,4 +61,21 @@ ul{
 	list-style-type: none;
 	margin:0;
 	padding: 0;	
+}
+
+#navImage{
+  width:5%; 
+  height:auto; 
+  border: 10px; 
+  padding: 10px;
+  float: left; 
+  position: relative;
+}
+
+footer{
+  bottom: 1%;
+  color: black;
+  position: absolute;
+  margin-top: 10px; 
+  
 }
