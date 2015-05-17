@@ -1,15 +1,14 @@
 #brandName{
   font-weight: bold;
-  margin-left: 5px; 
-  font-family: Impact, Charcoal, sans-serif;
-  position: absolute;  
+  margin-left: 2%;  
+  font-family: Impact, Charcoal, sans-serif; 
   top:0.5%;
+  font-size: 4em; 
 
 }
 
 body{
   background-color: #C67441;
-  padding: 50px;
   background-image: url("dark-leather.png"); 
 }
 
@@ -17,33 +16,50 @@ nav.navbar-default{
 	background-color: #C67441;
 	opacity: 0.5; 
 	filter: alpha(opacity=50); 
-	width: 100%; 
-  position: absolute;  
+	width: 100%;  
 	right: 0;
-  top: 10%;
+  top: 12%;
+  margin-bottom: 5%; 
   color: blue;
   font-weight: bold; 
   text-align: center; 
+
 } 
 
 .navbar-nav{
-  text-align: center;
+  left-margin:auto;
+  margin-right: auto;
   color: black;
   font-weight: bold; 
 }
 .jumbotron{
-  padding: 20px; 
-  min-height: 500px; 
+  padding: 2%;
+  min-height: 40em; 
   background-image: url('45-degree-fabric-light.png');
-  float: right; 
   background-color: #E5D9CA;
-  border-radius: 5px; 
-  position: absolute;
-  top: 20%;
-  bottom: 10%; 
-  width:90%;
-  margin-bottom: 5px;
-  margin-top: 10px; 
+  border-radius:0.5em; 
+  margin: auto;
+  width:80%;
+}
+
+.jumbotron h1{
+  font-size: 3.5em; 
+}
+
+.jumbotron h2{
+  font-size: 2.5em; 
+}
+
+.jumbotron h3{
+  font-size: 2em; 
+}
+.jumbotron p{
+  font-size: 1em; 
+}
+
+#contactBox{
+  border-radius: 0;
+  width:40%;
 }
 
 
@@ -64,18 +80,19 @@ ul{
 }
 
 #navImage{
-  width:5%; 
-  height:auto; 
-  border: 10px; 
-  padding: 10px;
-  float: left; 
-  position: relative;
+  width:auto; 
+  height:3.5em; 
 }
+
+.container-fluid{}
 
 footer{
   bottom: 1%;
   color: black;
-  position: absolute;
-  margin-top: 10px; 
-  
+  margin-top: 3em; 
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #801F00;
 }
+
+
