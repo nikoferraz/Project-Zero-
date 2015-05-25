@@ -1,98 +1,79 @@
-#brandName{
-  font-weight: bold;
-  margin-left: 2%;  
-  font-family: Impact, Charcoal, sans-serif; 
-  top:0.5%;
-  font-size: 4em; 
-
+.full {
+  background: url("Dirt.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
-body{
-  background-color: #C67441;
-  background-image: url("dark-leather.png"); 
+
+body {
+  background-color: transparent;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 3000px;
 }
 
-nav.navbar-default{
-	background-color: #C67441;
-	opacity: 0.5; 
-	filter: alpha(opacity=50); 
-	width: 100%;  
-	right: 0;
-  top: 12%;
-  margin-bottom: 5%; 
-  color: blue;
-  font-weight: bold; 
-  text-align: center; 
+.jumbotron {
+  background: transparent;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  margin-top: 5em;
+  padding-left: 10em
+  padding-top: 10em;
+  padding-bottom: 2em;
+  text-indent: 5%;
+}
 
-} 
+#mainInfobox{
+  width: 80em; 
+  text-indent: 1%;
+  display: block; 
+  min-height: 20em; 
+  padding: 2em; 
+}
 
-.navbar-nav{
-  left-margin:auto;
-  margin-right: auto;
+#input1{
+  width: 10em;
+}
+
+.navbar {
+  background: rgba(0,0,0,0.5); 
+}
+
+
+a {
+  color: white;
+}
+
+a:hover {
   color: black;
-  font-weight: bold; 
-}
-.jumbotron{
-  padding: 2%;
-  min-height: 40em; 
-  background-image: url('45-degree-fabric-light.png');
-  background-color: #E5D9CA;
-  border-radius:0.5em; 
-  margin: auto;
-  width:80%;
 }
 
-.jumbotron h1{
-  font-size: 3.5em; 
+.info-box a:hover{
+  color: blue;
 }
 
-.jumbotron h2{
-  font-size: 2.5em; 
+.info-box {
+  background: rgba(0,0,0,0.5);
+  padding: 10px 20px 20px 20px;
 }
 
-.jumbotron h3{
-  font-size: 2em; 
+#logo{
+  width:auto; 
+  height: 20em; 
+  background-color: transparent;
 }
-.jumbotron p{
+
+.info-box span img{
+  margin-left: 2.85em;
+  margin-right: auto;
+}
+
+.info-box p a{
+  font-weight:  bold;
+  color: gray; 
   font-size: 1em; 
 }
 
-#contactBox{
-  border-radius: 0;
-  width:40%;
-}
-
-
-h1{ 
-	font-style: sans-serif; 
-}
-.nav ul{
-	list-style-type: none; 
-	float: center;
-}
-.nav li{
-	display: inline; 
-}
-ul{
-	list-style-type: none;
-	margin:0;
-	padding: 0;	
-}
-
-#navImage{
-  width:auto; 
-  height:3.5em; 
-}
-
-.container-fluid{}
-
-footer{
-  bottom: 1%;
-  color: black;
-  margin-top: 3em; 
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #801F00;
+.info-box p{
+  font-size: 1.5em;
 }
 
 
